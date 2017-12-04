@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #1976D2;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+}
+h2 {
+    margin-left: 10%;
+}
+.content {
+    width: 90vw;
+    min-height: 80vh;
+    margin: 0 5% 0 5%;
+    background-color: whitesmoke;
+}
+.single-news { 
+    width: 16vw;
+    height: 20vw;
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: 1.6vw;
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+}
+.news-text {
+    color: #5F5F5F;
+    padding: 0 5% 5% 5%;
+    font-size: 2vh;
+}
+.news-text b {
+    color: #1976D2;
+    font-size: 2.5vh;
+}
+.for-pic {
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    display: flex;
+    overflow: hidden;
+}
+.for-pic:hover {
+    transform: scale(1.2);
+}
+.for-pic img {
+    height: 100%;
+}
+.for-moderation {
+    width: 45vw;
+    height: 50vh;
+    display: flex;
+    overflow: hidden;
+    margin-left: 5vw;
+}
+.for-moderation img {
+    height: 100%;
+}
+.for-moderation:hover {
+    transform: scale(1.1);
+    margin-top: 20vh;
+    overflow: visible;
+    height: auto;
+}
+.showstory {
+    border: 1px solid orange;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.form-control {
+    width: 30vw;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.preview {
+    width: 13vw;
+    height: 13vw;
+    overflow: hidden;
+}
+.preview img {
+    width: 100%;
+    height: auto;
+}
+input[type=file]:hover {
+    cursor: pointer;
+}
+.tellit {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.forwarn {
+    position: absolute;
+    margin: 20vw 1vw 0 0;
+    font-size: 3vh;
+    color: red;
+    z-index: 99;
+}
+.inline {
+    display: inline-block;
+}
+.nobutton {
+    border: none;
+    background-color: none;
+}
+.bottomline {
+    color: orange;
+    display: inline-block;
+    margin-left: 3%;
+}
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #5F5F5F;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10%;
+}
