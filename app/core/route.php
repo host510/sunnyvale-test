@@ -28,7 +28,7 @@ class Route
 		$action_name = 'action'.ucfirst($action_name);
 
  
-    $model_file = preg_split("/(?=[A-Z])/",$model_name,0,PREG_SPLIT_NO_EMPTY);
+    		$model_file = preg_split("/(?=[A-Z])/",$model_name,0,PREG_SPLIT_NO_EMPTY);
 		$model_file = strtolower($model_file[0].'_'.$model_file[1]).'.php';
 		$model_path = "app/models/".$model_file;
 		if(file_exists($model_path))
@@ -36,7 +36,7 @@ class Route
 			include $model_path;
 		}
 
-    $controller_file = preg_split("/(?=[A-Z])/",$controller_name,0,PREG_SPLIT_NO_EMPTY);
+    		$controller_file = preg_split("/(?=[A-Z])/",$controller_name,0,PREG_SPLIT_NO_EMPTY);
 		$controller_file = strtolower($controller_file[0].'_'.$controller_file[1]).'.php';
 		$controller_path = "app/controllers/".$controller_file;
 		if(file_exists($controller_path))
