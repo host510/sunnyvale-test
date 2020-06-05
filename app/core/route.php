@@ -12,8 +12,8 @@ class Route
 		// получаем имя контроллера
 		if ( !empty($routes[1]) )
 		{	
-       preg_match("/-[\w\?\!-_\+\.@]+$/", $routes[1], $matches);
-       $controller_name = rtrim($routes[1], $matches[0]);
+		       preg_match("/-[\w\?\!-_\+\.@]+$/", $routes[1], $matches);
+		       $controller_name = rtrim($routes[1], $matches[0]);
 		}
 		
 		// получаем имя экшина
