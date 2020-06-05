@@ -63,11 +63,10 @@ class Route
 	
 	}
 	
-	function ErrorPage404()
-	{
-		http_response_code(404);
-    include 'app/views/404.html';
-        
+    function ErrorPage404()
+    {
+	    http_response_code(404);
+	    include 'app/views/404.html';
     }
 }
 
